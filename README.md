@@ -119,3 +119,6 @@ kubectl ate create actor my-counter-1 -a ate-demo-counter --template counter
 kubectl port-forward -n ate-system svc/atenet-router 8000:80
 
 In another terminal try to access -> curl -X POST -H "ate-target-actor: ate-demo-counter/my-counter-1" -i http://localhost:8000/
+
+## Stateful counter actor
+Refer to [Stateful AI Agents](./StatefulAIAgents.md)
